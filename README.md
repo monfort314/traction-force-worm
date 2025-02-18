@@ -1,5 +1,7 @@
 # traction-force-worm
-traction force estimation in freely moving worms on PAA gels
+traction force estimation in freely moving worms **C. elegans** on PAA gels
+
+part of the manuscript: Active sensing of substrate mechanics optimizes locomotion of C. elegans A. Pidde, C. Agazzi, M. Porta-de-la-Riva, C. Martínez-Fernández, A. Lorrach, A. Bijalwan, E. Torralba, R. Das, J. Munoz, M. Krieg
 
 0. **STEP0**
    + prerequisites to apply the pipeline is to have a worm image segmented. I used annotator tracker from [microSAM](https://github.com/computational-cell-analytics/micro-sam) napari plugin, with some fine-tuning (worm should be white and background black and saved as tif file).
