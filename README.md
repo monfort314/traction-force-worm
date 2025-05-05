@@ -1,6 +1,16 @@
 # traction-force-worm
 traction force estimation in freely moving worms **C. elegans** on PAA gels
 
+## Installation
+
+Download the package and unpack. Go to its directory
+
+Is it recommended to set up a conda environment:
+
+```conda env create --name your_name --file=environment.yml```
+
+Wait a couple of minutes until it is installed.
+
 ## Description
 0. **STEP0**
    + prerequisites to apply the pipeline is to have a worm image segmented. I used annotator tracker from [microSAM](https://github.com/computational-cell-analytics/micro-sam) napari plugin, with some fine-tuning (worm should be white and background black and saved as tif file).
