@@ -3,8 +3,8 @@ traction force estimation in freely moving worms **C. elegans** on PAA gels
 
 ## Installation
 
-Download the package and unpack. Go to its directory
-
+Download the package and unpack. Go to its directory.
+The software was tested on Windows 11. 
 Is it recommended to set up a conda environment:
 
 ```conda env create --name your_name --file=environment.yml```
